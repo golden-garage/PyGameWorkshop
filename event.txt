@@ -1,0 +1,11 @@
+Let us try to include some events in the program we have just written.
+well I just try to add three steps into the program
+
+gameExit = False
+
+while not gameExit: 
+	for event in pygame.event.get()
+		print event
+		
+
+#This loop prints in all the events which the system encounters it may be a mouse click or a keyboard press.
